@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        img{
+            border: 5px dashed black;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        .contain{
+            display: flex;
+            justify-content: right;
+            min-height:95vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(131, 214, 240, 0.7),rgba(209, 117, 245, 0.7));
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .subc{
+            margin-top: 170px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-weight: 500;
+            font-size:30px;
+            color:rgb(214, 25, 57);
+            min-height:95vh;
+        }
+    </style>
 </head>
 <body>
-    <img src="gray.jpg">
+    <div class="contain">
+    <img src="gray.jpg" width="580" height="500">
+    <div class=subc>
+    <p >Grey Cockatiel Colors and Markings
+        Grey is the natural color of Cockatiels in the wild, and mature males will have an entirely grey body except for a characteristic white stripe on each wing, a yellow face and crest, and orange cheeks.</p>
+    </div>
+    </div>
 </body>
 </html>

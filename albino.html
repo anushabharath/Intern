@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        img{
+            border: 5px dashed black;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        .contain{
+            display: flex;
+            justify-content: right;
+            min-height:95vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(131, 214, 240, 0.7),rgba(209, 117, 245, 0.7));
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .subc{
+            margin-top: 170px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-weight: 500;
+            font-size:30px;
+            color:rgb(214, 25, 57);
+            min-height:95vh;
+        }
+    </style>
 </head>
 <body>
-    <img src="alb.jpg">
+    <div class="contain">
+    <img src="alb.jpg" width="500" height="500">
+    <div class="subc">
+    <p>The Albino Cockatiel is not a true 'albino, but is actually a combination of a White-faced Cockatiel and a Lutino Cockatiel. The Whiteface gene removes all the yellow and orange that would be present in a Lutino, and the Lutino gene removes all the black and grey. The result is an all white cockatiel with red eyes.</p>
+    </div>
+    </div>
 </body>
 </html>
